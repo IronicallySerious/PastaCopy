@@ -1,0 +1,45 @@
+        * {
+            font-family: Armata;
+            color: rgb(185, 185, 185);
+        }
+
+        .topimage {
+            margin-top: 50px;
+            margin-left: 32%;
+        }
+
+        .headingholder {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            vertical-align: middle;
+        }
+
+        .heading {
+            position: relative;
+            margin-top: 80px;
+            font-size: 90px;
+        }
+
+        .tagline {
+            text-align: center;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .fieldchildren{
+            display:flex;
+            justify-content:center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .resetbutton{
+            margin-left:50px;
+        }
+        

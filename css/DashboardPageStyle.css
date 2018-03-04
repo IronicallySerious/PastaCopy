@@ -1,0 +1,97 @@
+        * {
+            font-family: Armata;
+            color: rgb(56, 56, 56);
+        }
+
+        .topimage {
+            margin-top: 50px;
+            margin-left: 32%;
+        }
+
+        .headingholder {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            vertical-align: middle;
+        }
+
+        .heading {
+            position: relative;
+            margin-top: 80px;
+            font-size: 90px;
+        }
+
+        .tagline {
+            text-align: center;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .fieldchildren{
+            display:flex;
+            justify-content:center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .resetbutton{
+            margin-left:50px;
+        }
+        .navtext{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            top:0px;
+            left:0px;
+            height: 70px;
+            width: 100%;
+            position: fixed;
+            background-color: rgb(159, 101, 212);
+        }
+        .navtext{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .icon{
+            margin-right: 10px;
+        }
+        .placeholder{
+            margin-top: 100px;
+            display:flex;
+            flex-direction: row;
+        }
+        .create{
+            text-align: center;
+            font-size: 80px;
+            width:50%;
+            height: 90%;
+            background-color: aqua;
+            opacity: 0.5;    
+            border: 0px;
+        }
+        .library{
+            width:50%;
+            height: 90%;
+            background-color: aqua;
+            opacity: 0.5;    
+        }
+        .logout{
+            position:fixed;
+            top:10px;
+            right:10px;
+        }
+        .logoutbutton{
+            border: 0px;
+            background-color: white;
+            height:50px;
+            width:100px;
+        }

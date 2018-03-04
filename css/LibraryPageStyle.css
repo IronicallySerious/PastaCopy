@@ -1,0 +1,86 @@
+ * {
+        font-family: Armata;
+        color: rgb(56, 56, 56);
+    }
+.navtext{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            top:0px;
+            left:0px;
+            height: 70px;
+            width: 100%;
+            position: fixed;
+            background-color: rgb(159, 101, 212);
+        }
+        .navtext{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .icon{
+            margin-right: 10px;
+        }
+        .logout{
+            position:fixed;
+            top:10px;
+            right:10px;
+        }
+        .logoutbutton{
+            border: 0px;
+            background-color: white;
+            height:50px;
+            width:100px;
+        }
+        .pasteview{
+        	overflow: auto;
+        	display:flex;
+        	flex-direction: row;
+        	margin-left: 5%;
+        	margin-top: 10%;
+        	display: flex;
+        	flex-direction: row;
+        	width: 90%;
+        	background-color: purple;
+        }
+        .paste{
+        	display: flex;
+        	flex-direction: column;
+        	margin: 10px 10px 10px 10px;
+        	height:250px;
+        	width:200px;
+        	background-color: white;
+        	justify-content: center;
+        	align-items: center;
+        	box-shadow: 0px 0px 10px 1px black;
+        }
+        .sneak{
+        	color:dark gray;
+        }
+        .link{
+        	color:blue;
+        }
+        .pubbutton{
+        	width:100px;
+        	height: 40px;
+        	border-style:outset;
+        	border-width: 3px;
+        	border-color: green;
+        	background-color: green;
+        	color:white;
+        }
+        .heading{
+        	color:white;
+        	top:100px;
+        	position: relative;
+        	margin-top:100px;
+        	font-size: 100px;
+        }
+        #deletebutton{
+            border-color: red;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }

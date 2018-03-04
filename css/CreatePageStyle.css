@@ -1,0 +1,86 @@
+* {
+    font-family: Armata;
+    color: rgb(56, 56, 56);
+}
+.navtext{
+    font-size: 30px;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    top:0px;
+    left:0px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(159, 101, 212);
+}
+.navtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    margin-right: 10px;
+}
+.placeholder{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+}
+.create{
+    text-align: center;
+    font-size: 80px;
+    width:50%;
+    height: 90%;
+    background-color: aqua;
+    opacity: 0.5;    
+    border: 0px;
+}
+.library{
+    width:50%;
+    height: 90%;
+    background-color: aqua;
+    opacity: 0.5;    
+}
+.logout{
+    position:fixed;
+    top:10px;
+    right:10px;
+}
+.logoutbutton{
+    border: 0px;
+    background-color: white;
+    height:50px;
+    width:100px;
+}
+.backbutton{
+    border: 0px;
+    background-color: white;
+    color:red;
+    width:80px;
+    height:50px;
+}
+.pasteeditor{
+    width:50%;
+}
+.pasteeditorplaceholder{
+    justify-content: center;
+    margin-top: 10%;
+    width:80%;
+    justify-self: center;
+    align-items: center;
+}
+.text{
+    height:500px;
+    width:100%;
+    margin-bottom: 10px;
+
+}
+.holder{
+    display:flex;
+}
+.checkbox{
+    margin-bottom: 10px;
+}
