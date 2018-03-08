@@ -2,7 +2,7 @@
 
 return array(
     'host' => "localhost",
-    'username' => "dummyroot",
-    'password' => "dummypassword"
+    'username' => "dummy",
+    'password' => "dummy"
 );
 ?>

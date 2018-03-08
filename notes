@@ -1,0 +1,9 @@
+-check user specfic things on sensitive files-deletepaste, create paste, 
+-delete indexfailed
+-add redirect if already logged in
+-add confirmation on delete button
+-use userid instead of username in pastas table
+-change directory structure of /php/
+-have another page to sign up or login
+-check formatting on all code
+-user should see his own pastes

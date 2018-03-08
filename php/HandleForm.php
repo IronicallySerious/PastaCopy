@@ -9,7 +9,7 @@
 
 <body background="/images/background.jpg">
 <?php
-    session_start();
+    //session_start();
     $username = NULL;
     $password = NULL;
     if($_SERVER["REQUEST_METHOD"]=="POST")
@@ -44,7 +44,7 @@
                     INSERT INTO `PastaCopy`(`serial_number`, `username`, `password`, `pastes`) VALUES (DEFAULT,'$username','$hashpass','NULL')";
             
             
-            if(!mysqli_multi_query($link,$sql)) // If INSERT query is successful
+            if(mysqli_multi_query($link,$sql)) // If INSERT query is successful
             {
                 echo mysqli_error($link);
                 $_SESSION["username"]=$username; // To be used in the dashboard page
@@ -60,7 +60,7 @@
         {
             // Look for the credentials in the database
             $hashpass = sha1($password);
-            $sql = "SELECT `serial_number`, `username`, `password`, `pastes` FROM `PastaCopy` WHERE `password`='$hashpass' AND `username`=$username";
+            $sql = "SELECT `serial_number`, `username`, `password`, `pastes` FROM `PastaCopy` WHERE `password`='$hashpass' AND `username`='$username'";
             mysqli_query($link,"USE PastaCopy");
             $result = mysqli_query($link,$sql);
             
